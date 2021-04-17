@@ -19,32 +19,46 @@ class Contents extends Component {
         
     }
     componentDidMount() {
-
-        /*function move() {
-            var top = Math.floor(Math.random() * 50) + 100;
-            var bottom = Math.floor(Math.random() * 50) + 100;
-            var left = Math.floor(Math.random() * 50) + 100;
-            var right = Math.floor(Math.random() * 50) + 100;
-             $(".Profile").animate({
-                 top: "+="+top+"px",
-                 left: "+="+left+"px"
-             },1000,null);
-             $(".GoogleDrive").animate({
-                 bottom: "+="+bottom+"px",
-                 left: "+="+left+"px"
-             },1000,null);
-             $(".Board").animate({
-                 top: "+="+top+"px",
-                 right: "+="+right+"px"
-             },1000,null);
-             $(".Lab").animate({
-                 bottom: "+="+bottom+"px",
-                 right: "+="+right+"px"
-             },1000,null);
+        var mode = 1;
+        var Profile = 42;
+        var GoogleDrive = 45;
+        var Board = 46;
+        var Lab = 43;
+        function move() {
+            if (mode === 1) {
+                mode *= -1;
+                $(".Profile").animate({
+                    left: "+="+(Profile*(mode))+"%"
+                 },2500,'swing');
+                 $(".GoogleDrive").animate({
+                    left: "+="+(GoogleDrive*(mode*-1))+"%"
+                 },2500,'swing');
+                 $(".Board").animate({
+                    left: "+="+(Board*(mode))+"%"
+                 },2500,'swing');
+                 $(".Lab").animate({
+                    left: "+="+(Lab*(mode*-1))+"%"
+                 },2500,'swing',move);
+            }
+            else if (mode === -1) {
+                mode *= -1;
+                $(".Profile").animate({
+                    left: "+="+(Profile*(mode))+"%"
+                 },2500,'swing');
+                 $(".GoogleDrive").animate({
+                    left: "+="+(GoogleDrive*(mode*-1))+"%",
+                 },2500,'swing');
+                 $(".Board").animate({
+                    left: "+="+(Board*(mode))+"%"
+                 },2500,'swing');
+                 $(".Lab").animate({
+                    left: "+="+(Lab*(mode*-1))+"%"
+                 },2500,'swing',move);
+            }
         }
        $(function() {
-           //move();
-        });*/
+           move();
+        });
     }
     render() {
         return (

@@ -2,9 +2,9 @@
 .box {
     margin: 0;
     margin-right: 0;
-    width: 10em;
-    height: 10em;
-    line-height: 8em;
+    width: 9em;
+    height: 9em;
+    line-height: 7em;
     text-align: center;
     border-radius: 100%;
     border: solid 1px #F0F2F3;
@@ -19,21 +19,20 @@
     font-size: 20px;
 }
 .Profile {
-    top : 3%;
     left : 65%;
 }
 
 .GoogleDrive {
-    bottom : 5%;
+    top : 3%;
     left : 20%;
 }
 
 .Board {
-    bottom : 3%;
+    top : 6%;
     left : 60%;
 }
 .Lab {
-    bottom : 3%;
+    top : 9%;
     left: 18%;
 }
 .box:hover {
