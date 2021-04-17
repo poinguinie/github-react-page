@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+#logo {
+    margin: 0 auto;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logoImg {
+    min-width: 5%;
+    min-height: 3%;
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+.loginForm {
+    height: 30%;
+}
+.loginTable {
+    padding:10px;
+    margin:0 auto;
+}
+#loginFont {
+    font-family: 'Gothic A1';
+    color:#91877F;
+    font-size: large;
+    text-align: right;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+}
+#loginSubmit {
+    margin:7px;
+    width: 7em;
+    height: 3em;
+    background-color: aliceblue;
+    color:#91877F; 
+    border: none;
+}
+#loginSubmit:hover {
+    animation-duration : 0.4s;
+    animation-name: loginSubmitAnim;
+    animation-fill-mode: forwards;
+}
+@keyframes loginSubmitAnim {
+    from {
+        background-color: aliceblue;
+        color:#91877F; 
+    }
+    to {
+        background-color: #91877F;
+        color:aliceblue; 
+    }
+}
+#button {
+    text-align: right;
+}

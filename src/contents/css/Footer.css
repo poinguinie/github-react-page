@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: #F0F2F3;
+    font-family: 'Gothic A1';
+}
+.Contact {
+    text-align: left;
+}
+.Administer {
+    text-align: left;
+}
+.page {
+    text-decoration: none;
+}
+.page:hover {
+    color: #91877F;
+}
+.page:active, .page:focus, .page:checked, .page:link, .page:visited {
+    color: #F0F2F3;
+}

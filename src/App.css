@@ -1,0 +1,26 @@
+.App {
+  margin : 0;
+  padding : 0;
+}
+.Navi {
+  margin : 0;
+  width : 20vw;
+  height: 93vh;
+  float : left;
+  position: relative;
+  background-color: #D9CDBC;
+}
+.Contents {
+  margin : 0;
+  width : 80vw;
+  height: 93vh;
+  float : left;
+  position: relative;
+  background-color: #E3E1E3;
+}
+.Footer {
+  clear: left;
+  height: 7vh;
+  width: 100vw;
+  background-color: #91877F;
+}
