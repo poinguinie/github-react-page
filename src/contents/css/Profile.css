@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+.ProfileContent {
+    margin: 3%;
+    text-align: left;
+    width: 94%;
+    height: 94%;
+}
+.Profile1 {
+    width: 100%;
+    height: 30%;
+}
+.ProfileLogo {
+    width: 30%;
+    height: 100%;
+    float : left;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#profileImg {
+    padding: 1%;
+    border: 1px solid #91877F;
+    border-radius: 100%;
+    width: 15em;
+    height: 15em;
+    max-width: 50%;
+    max-height: 80%;
+}
+#logoAlt {
+    font-family: 'Noto Sans KR';
+}
+.List {
+    font-family: 'Noto Sans KR';
+    margin: 3%;
+    width : 100%;
+    font-size: 1rem;
+}
+#profileList {
+    margin: 3%;
+    list-style-type: none;
+}
+.first {
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: bold;
+    color: #5F555F;
+}
+.elmt {
+    padding-right: 50px;
+}
+.link {
+    text-decoration: none;
+}
+.link:visited, .link:active {
+    color: black;
+}
+.link:hover {
+    color :darkgrey;
+}
+.ProfileInfo {
+    width: 70%;
+    height: 100%;
+    float : left;
+    display: flex;
+    align-items: center;
+}
+.ProfileTable {
+    width: 100%;
+    height: 66%;
+    clear: both;
+}
+.PortfolioTitle {
+    width: 100%;
+    height: 5%;
+    text-align: center;
+}
+#Ptitle {
+    font-size: 1.7rem;
+    font-family: 'Noto Sans KR';
+    color: #5F555F;
+    font-weight: bold;
+}
+.PortfolioContents {
+    width: 100%;
+    height: 95%;
+}

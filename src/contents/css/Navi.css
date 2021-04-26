@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+.close {
+    width: 96%;
+    height: 3%;
+    text-align: right;
+    padding: 2%;
+}
+#closeImg {
+    cursor: pointer;
+}
+#openImg {
+    cursor: pointer;
+    position: absolute;
+    margin: 3%;
+}
 #logo {
     margin: 0 auto;
-    height: 70%;
+    height: 65%;
     display: flex;
     align-items: center;
     justify-content: center;
