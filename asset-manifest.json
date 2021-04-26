@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-github-pages/static/css/main.937743aa.chunk.css",
+    "main.js": "/react-github-pages/static/js/main.022204b6.chunk.js",
+    "main.js.map": "/react-github-pages/static/js/main.022204b6.chunk.js.map",
+    "runtime-main.js": "/react-github-pages/static/js/runtime-main.1f4e2003.js",
+    "runtime-main.js.map": "/react-github-pages/static/js/runtime-main.1f4e2003.js.map",
+    "static/js/2.28a76f80.chunk.js": "/react-github-pages/static/js/2.28a76f80.chunk.js",
+    "static/js/2.28a76f80.chunk.js.map": "/react-github-pages/static/js/2.28a76f80.chunk.js.map",
+    "static/js/3.b17f62f3.chunk.js": "/react-github-pages/static/js/3.b17f62f3.chunk.js",
+    "static/js/3.b17f62f3.chunk.js.map": "/react-github-pages/static/js/3.b17f62f3.chunk.js.map",
+    "index.html": "/react-github-pages/index.html",
+    "static/css/main.937743aa.chunk.css.map": "/react-github-pages/static/css/main.937743aa.chunk.css.map",
+    "static/js/2.28a76f80.chunk.js.LICENSE.txt": "/react-github-pages/static/js/2.28a76f80.chunk.js.LICENSE.txt",
+    "static/media/close-button.912054f8.svg": "/react-github-pages/static/media/close-button.912054f8.svg",
+    "static/media/facebook.98aa7037.svg": "/react-github-pages/static/media/facebook.98aa7037.svg",
+    "static/media/logo.2cecdbea.png": "/react-github-pages/static/media/logo.2cecdbea.png",
+    "static/media/menu.ba82475e.svg": "/react-github-pages/static/media/menu.ba82475e.svg",
+    "static/media/open-button.db10872e.svg": "/react-github-pages/static/media/open-button.db10872e.svg",
+    "static/media/portfolio1.a447b5b8.jpg": "/react-github-pages/static/media/portfolio1.a447b5b8.jpg",
+    "static/media/portfolio2.9decca57.jpg": "/react-github-pages/static/media/portfolio2.9decca57.jpg",
+    "static/media/portfolio3.d58b3dcb.jpg": "/react-github-pages/static/media/portfolio3.d58b3dcb.jpg",
+    "static/media/portfolio4.cd1b0a3f.jpg": "/react-github-pages/static/media/portfolio4.cd1b0a3f.jpg",
+    "static/media/tistory.89779f2b.svg": "/react-github-pages/static/media/tistory.89779f2b.svg",
+    "static/media/twitter.5ae9f4cf.svg": "/react-github-pages/static/media/twitter.5ae9f4cf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f4e2003.js",
+    "static/js/2.28a76f80.chunk.js",
+    "static/css/main.937743aa.chunk.css",
+    "static/js/main.022204b6.chunk.js"
+  ]
+}
